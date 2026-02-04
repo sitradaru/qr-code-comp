@@ -1,0 +1,36 @@
+body {
+    background-color:hsl(212, 45%, 89%);
+    font-family: "outfit";
+}
+
+#qr-page {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container{
+    border-radius: 10px;
+    background-color: white;
+    max-width: 200px;
+    padding: 10px;
+}
+
+#qr-img {
+    border-radius: 10px;
+    max-width: 100%;
+}
+
+#first-text {
+    text-align: center;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+#second-text {
+    text-align: center;
+    font-weight: 400;
+    color: hsl(216, 15%, 48%);
+    font-size: 10px;
+}
